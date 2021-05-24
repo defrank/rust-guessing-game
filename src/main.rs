@@ -14,7 +14,10 @@ fn main() {
         io::stdin()
             .read_line(&mut guess)
             .expect("Failed to read line");
-        let guess: u8 = guess.trim().parse().expect("Please type a number!");
+        let guess: u8 = match guess.trim().parse() {
+            Ok(num) => num,
+            Err(_) => { println!("Please type a number between 1 and 100!"); continue; },
+        };
         println!("You guessed: {}", guess);
 
         match guess.cmp(&secret_number) {
