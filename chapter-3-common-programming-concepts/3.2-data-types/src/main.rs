@@ -43,4 +43,8 @@ fn main() {
     let six_point_four = tup.1;
     let one = tup.2;
     println!("{} {} {}", five_hundred, six_point_four, one);
+    println!();
+    println!("The array compound type!");
+    let a = [1, 2, 3, 4, 5];
+    println!("{} {}", a[0], a[4]);
 }
