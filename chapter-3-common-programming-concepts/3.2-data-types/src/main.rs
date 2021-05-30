@@ -20,4 +20,8 @@ fn main() {
     let _product = 4*30;
     let _quotient = 56.7 / 32.2;
     let _remainder = 43 % 5;
+
+    println!("The boolean type!");
+    let _t = true;
+    let _f: bool = false;
 }
