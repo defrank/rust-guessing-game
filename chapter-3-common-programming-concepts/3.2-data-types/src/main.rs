@@ -9,4 +9,8 @@ fn main() {
     println!("Integer overflow!");
     assert_eq!((i32::MAX - 2).checked_add(1), Some(i32::MAX - 1));
     assert_eq!((i32::MAX - 2).checked_add(3), None);
+
+    println!("Floating-point types!");
+    let _x = 2.0;  // f64
+    let _y: f32 = 3.0;  // f32
 }
