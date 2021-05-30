@@ -47,4 +47,6 @@ fn main() {
     println!("The array compound type!");
     let a = [1, 2, 3, 4, 5];
     println!("{} {}", a[0], a[4]);
+    let a: [i32; 5] = [3; 5];
+    println!("{} {}", a[0], a[4]);
 }
