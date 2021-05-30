@@ -13,4 +13,11 @@ fn main() {
     println!("Floating-point types!");
     let _x = 2.0;  // f64
     let _y: f32 = 3.0;  // f32
+
+    println!("Numeric operations!");
+    let _sum = 5 + 10;
+    let _difference = 95.5 - 4.3;
+    let _product = 4*30;
+    let _quotient = 56.7 / 32.2;
+    let _remainder = 43 % 5;
 }
