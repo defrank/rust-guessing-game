@@ -24,4 +24,9 @@ fn main() {
     println!("The boolean type!");
     let _t = true;
     let _f: bool = false;
+
+    println!("The character type!");
+    let c = 'z';
+    let z = 'ℤ';
+    let heart_eyed_cat = '😻';
 }
